@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
             // Alarmni yoqamiz
             alarmManager.setExact(AlarmManager.RTC_WAKEUP, calendar.timeInMillis, pendingIntent)
 
-            Toast.makeText(this, "Alarm ${calendar.} vaqtda yoqiladi", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "Alarm ${calendar} vaqtda yoqiladi", Toast.LENGTH_LONG).show()
         }
 
         // Stop buttonini aniqlaymiz va unga click listener qo'shamiz
